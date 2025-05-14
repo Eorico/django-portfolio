@@ -1,0 +1,150 @@
+.insta {
+    background: url("images/bga.gif ") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.IG-title {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.IG-title:hover {
+    color: red;
+}
+
+.navbarIG {
+    background: url("images/bga.gif") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 15px;
+}
+
+.navbar-brandIG {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar-brandIG img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brandIG .animated-img {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.navbar-brandIG .static-img {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.navbar-brandIG:hover .static-img {
+    opacity: 0;
+}
+
+.navbar-brandIG:hover .animated-img {
+    opacity: 1;
+    transform: scale(1.1); 
+}
+
+.IGgrid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.folder {
+    position: relative;
+    background: url('images/folder.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    height: 250px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.3s ease;
+    border: none; 
+    transition: transform 0.5s ease;
+    
+}
+
+.folder:hover {
+    transform: scale(1.08); 
+}
+
+.folder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.folder.open img {
+    opacity: 1;
+}
+
+.folder-label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #412b2b;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-align: center;
+    pointer-events: none; /* so clicks pass through to the folder */
+}
+
+
+
+@keyframes pop {
+    0% { transform: scale(0.8); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+.IG-footer {
+    text-align: center;
+    padding: 15px;
+    background: url("images/bga.gif ") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .text span {
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+}
+
+footer .text span a {
+    font-weight: 500;
+    color: #FFF;
+    text-decoration: none;
+}
+
+footer .text span a:hover {
+    text-decoration: underline;
+    color: #d13100;
+}
