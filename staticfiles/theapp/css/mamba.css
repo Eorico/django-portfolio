@@ -37,7 +37,7 @@
 }
 
 .MainNav.sticky {
-  background: url("../images/amongus.gif ") no-repeat;
+  background: url("../images/amongus.gif") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -174,7 +174,7 @@
 .HomeSec {
   height: 100vh;
   width: 100%;
-  background: url("../images/amongus.gif ") no-repeat;
+  background: url("../images/amongus.gif") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -337,7 +337,7 @@ section .AboutButton button {
 section .AboutButton button:hover {
   border-color: rgba(223,90,90,0.9654236694677871);
   background-color: #fff;
-  background:  url("../images/amongus.gif ") no-repeat;
+  background:  url("../images/amongus.gif") no-repeat;
   color: rgba(223,90,90,0.9654236694677871);
 }
 
@@ -559,7 +559,7 @@ section .AboutButton button:hover {
 /* Contact Section CSS */
  
 .ContactSec {
-  background: url("../images/amongus.gif ") no-repeat;
+  background: url("../images/amongus.gif") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -661,7 +661,7 @@ section .AboutButton button:hover {
 }
 
 footer {
-  background: url("../images/amongus.gif ") no-repeat;
+  background: url("../images/amongus.gif") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
